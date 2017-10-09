@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:background="@drawable/shape_dialog_top_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/daily_plan_mouth"
+            android:textSize="@dimen/font_16sp"
+            android:paddingLeft="@dimen/horizontal_16"
+            android:paddingRight="@dimen/horizontal_16"
+            android:paddingTop="@dimen/vertical_20"
+            android:paddingBottom="@dimen/vertical_20"
+            android:textColor="@color/white"
+            />
+
+    </RelativeLayout>
+
+
+    <com.customview.view.SelfListview
+        android:id="@+id/lv_plan_mouth_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/app_bg_light_gray"
+        android:dividerHeight="@dimen/vertical_4"
+        />
+
+
+    <!--android:divider="#00000000"
+        android:dividerHeight="0dp"-->
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/dialog_theme"/>
+    <!--android:background="@color/lib_divider_line_color"-->
+
+
+    <LinearLayout
+        android:background="@drawable/shape_dialog_bottom_ll"
+        android:layout_width="match_parent"
+        android:divider="@drawable/diliver_vertical_line_blue"
+        android:showDividers="middle"
+        android:layout_height="@dimen/vertical_70">
+
+        <TextView
+            android:id="@+id/tv_dlg_plan_mouth_cancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/font_14sp"
+            android:gravity="center"
+            android:textColor="@color/text_light_black"
+            android:text="@string/cancel"
+            />
+
+        <TextView
+            android:id="@+id/tv_dlg_plan_mouth_sure"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/font_14sp"
+            android:gravity="center"
+            android:textColor="@color/dialog_theme"
+            android:text="@string/sure"
+            />
+    </LinearLayout>
+
+</LinearLayout>

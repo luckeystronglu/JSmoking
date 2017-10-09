@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yzh.smartsmoking">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:name="com.yzh.base.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon_tg_smoking"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!--主页-->
+        <activity android:name="com.yzh.smartsmoking.activity.MainActivity" android:screenOrientation="portrait" android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.HOME"/>
+                <category android:name="android.intent.category.MONKEY"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activity.HomeSmokingActivity" android:screenOrientation="portrait"/> <!--首页-->
+        <!--<activity android:name=".activity.SettingActivity" android:screenOrientation="portrait"/> &lt;!&ndash;设置页&ndash;&gt;-->
+
+        <!--<receiver android:name=".activity.HomeSmokingActivity$PowerConnectionReceiver">-->
+
+            <!--<intent-filter>-->
+
+                <!--<action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>-->
+
+                <!--<action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>-->
+
+            <!--</intent-filter>-->
+
+        <!--</receiver>-->
+
+    </application>
+
+</manifest>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartSmoking</string>
+
+    <string name="daily_plan_mouth">Daily smoke mouth setting</string>
+    <string name="today_smoking_mouth">Today Smoking Mouth</string>
+    <string name="plan_mouth">Plan mouth</string>
+    <string name="current_power">Current power(W)</string>
+    <string name="setting">Setting</string>
+    <string name="smoking">Smoking</string>
+    <string name="kugou">Kugou</string>
+    <string name="today_smoking_time">Time</string>
+    <string name="mouth">Mouth</string>
+    <string name="cancel">Cancel</string>
+    <string name="sure">Sure</string>
+    <string name="cpb_plan">Plan : </string>
+    <string name="smoke_power_setting">Smoke power setting</string>
+    <string name="smoke_power_unit">W</string>
+    <string name="toast_power_choice">Please choice power value at first</string>
+    <string name="toast_plan_mouth">Please choice smoking mouth plan at first</string>
+    <string name="press_once_more_login_out">Press once more will login out</string>
+    <string name="please_install_kugou_first">Please install Kugou music first</string>
+    <string name="low_voltage_remind">Voltage level is low,please change it as soon as possible</string>
+    <string name="atomizer_short_circuit">Atomizer short circuit</string>
+</resources>

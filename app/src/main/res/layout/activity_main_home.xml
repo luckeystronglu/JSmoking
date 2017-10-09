@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home"
+    android:orientation="vertical"
+    tools:context="com.yzh.smartsmoking.activity.MainActivity">
+
+    <com.customview.selfheader.HeaderRightTextView
+        android:id="@+id/header_home_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:rightTextVisible="gone"
+        app:rightText="@string/setting" />
+    <!--app:h2leftIconVisible="gone"-->
+    <!-- app:h2middleTitle="主页"-->
+
+    <com.customview.view.CircleProgressBar
+        android:id="@+id/circleprogressbar_cpb_demo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/vertical_350"
+
+        app:cpbBackgroundColor="#64edebeb"
+        app:cpbBackgroundSize="0.05dp"
+        app:cpbBottomTextColor="#fcfdfc"
+        app:cpbBottomTextGap="@dimen/vertical_2"
+        app:cpbBottomTextSize="@dimen/font_46sp"
+
+
+        app:cpbGravity="center"
+        app:cpbProgressValueTextColor="#fcfdfc"
+        app:cpbProgressValueTextSize="@dimen/font_46sp"
+        app:cpbRadius="@dimen/vertical_140"
+        app:cpbScaleType="None"
+
+        app:cpbShowProgressValue="false"
+        app:cpbStartAngle="270"
+        app:cpbSweepAngle="360"
+
+        app:cpbTopTextColor="#fcfdfc"
+        app:cpbTopTextGap="@dimen/vertical_2"
+        app:cpbTopTextSize="@dimen/font_14sp" />
+
+    <!--app:cpbProgressSize="@dimen/vertical_12"-->
+    <!--app:cpbBackgroundSize="@dimen/vertical_10"-->
+    <!--app:cpbBottomText="90"-->
+
+
+    <!--<com.customview.view.CircleProgressBar-->
+        <!--android:id="@+id/circleprogressbar_cpb_demo"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/vertical_320"-->
+        <!--app:cpbBackgroundColor="#64edebeb"-->
+        <!--app:cpbBackgroundSize="@dimen/vertical_10"-->
+        <!--app:cpbBottomTextColor="#eee9e9"-->
+        <!--app:cpbBottomTextGap="@dimen/vertical_2"-->
+        <!--app:cpbBottomTextSize="@dimen/font_18sp"-->
+
+        <!--app:cpbGravity="center"-->
+        <!--app:cpbProgressSize="@dimen/vertical_12"-->
+        <!--app:cpbProgressValueTextColor="#fcfdfc"-->
+        <!--app:cpbProgressValueTextSize="@dimen/font_92sp"-->
+        <!--app:cpbRadius="@dimen/vertical_140"-->
+        <!--app:cpbScaleType="None"-->
+
+        <!--app:cpbShowProgressValue="true"-->
+        <!--app:cpbStartAngle="270"-->
+        <!--app:cpbSweepAngle="360"-->
+
+        <!--app:cpbTopTextColor="#eee9e9"-->
+        <!--app:cpbTopTextGap="@dimen/vertical_2"-->
+        <!--app:cpbTopTextSize="@dimen/font_18sp" />-->
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:visibility="gone"-->
+        <!--android:gravity="center">-->
+        <!--&lt;!&ndash;当前功率&ndash;&gt;-->
+        <!--<LinearLayout-->
+            <!--android:id="@+id/ll_current_power_setting"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="@dimen/vertical_70"-->
+            <!--android:layout_marginLeft="@dimen/horizontal_20"-->
+            <!--android:layout_marginRight="@dimen/horizontal_20"-->
+            <!--android:layout_marginTop="@dimen/vertical_6"-->
+            <!--android:background="@drawable/shape_login_et_themefill"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_current_power_setting"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:textSize="@dimen/font_18sp" />-->
+
+        <!--</LinearLayout>-->
+
+    <!--</LinearLayout>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/iv_plan_mouth_setting"
+                android:layout_width="@dimen/vertical_100"
+                android:layout_height="@dimen/vertical_100"
+                android:src="@drawable/icon80_smoke_plan_mouth">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/plan_mouth"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_14sp"
+                android:layout_marginTop="@dimen/vertical_16"
+                android:layout_marginBottom="@dimen/vertical_10"/>
+
+            <TextView
+                android:id="@+id/tv_plan_mouth_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_18sp"
+                android:layout_marginBottom="@dimen/vertical_10"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_current_powervalue"
+                android:layout_width="@dimen/vertical_100"
+                android:layout_height="@dimen/vertical_100"
+                android:src="@drawable/icon80_smoke_current_power">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/current_power"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_14sp"
+                android:layout_marginTop="@dimen/vertical_16"
+                android:layout_marginBottom="@dimen/vertical_10"/>
+
+            <TextView
+                android:id="@+id/tv_current_powervalue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_18sp"
+                android:layout_marginBottom="@dimen/vertical_10"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!--app:cpbProgress="75"-->
+    <!--app:cpbMax="120"-->
+    <!--app:cpbBottomText="计划 : 120"-->
+    <!--app:cpbTopText="@string/today_smoking_mouth"-->
+
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="@dimen/vertical_400"-->
+    <!--android:gravity="center">-->
+    <!--<com.customview.view.WaveLoadingView-->
+    <!--android:id="@+id/wave_loading_view"-->
+    <!--android:layout_width="@dimen/horizontal_280"-->
+    <!--android:layout_height="@dimen/horizontal_280"-->
+    <!--app:wlv_borderColor="@color/wave_border_color"-->
+    <!--app:wlv_wave_background_Color="@color/wave_bg_color"-->
+    <!--app:wlv_borderWidth="8dp"-->
+    <!--app:wlv_progressValue="40"-->
+    <!--app:wlv_shapeType="circle"-->
+    <!--app:wlv_round_rectangle="true"-->
+    <!--app:wlv_triangle_direction="north"-->
+    <!--app:wlv_titleTop="@string/today_smoking_mouth"-->
+    <!--app:wlv_titleTopColor="@color/white"-->
+    <!--app:wlv_titleTopSize="@dimen/font_14sp"-->
+    <!--app:wlv_titleCenter="80"-->
+    <!--app:wlv_titleCenterColor="@color/wave_title_center_color"-->
+    <!--app:wlv_titleCenterSize="@dimen/font_50sp"-->
+    <!--app:wlv_titleBottomSize="@dimen/font_14sp"-->
+    <!--app:wlv_titleBottomColor="@color/white"-->
+    <!--app:wlv_titleBottom="计划吸烟口数:200"-->
+    <!--app:wlv_waveAmplitude="50"-->
+    <!--app:wlv_waveColor="@color/wave_color"-->
+    <!--/>-->
+    <!--</LinearLayout>-->
+
+
+</LinearLayout>

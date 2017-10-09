@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home"
+    android:orientation="vertical"
+    tools:context="com.yzh.smartsmoking.activity.MainActivity">
+
+    <com.customview.selfheader.HeaderRightImageView
+        android:id="@+id/header_activity_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:middleTitle="设置"
+        app:rightIconVisible="gone"
+        />
+
+    <!--功率设置-->
+    <LinearLayout
+        android:id="@+id/ll_setting_power"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/vertical_60"
+        android:background="@color/white"
+        android:layout_marginTop="0.5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/horizontal_130"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/horizontal_16"
+            android:textSize="@dimen/font_14sp"
+            android:textColor="@color/textBlack"
+            android:text="功率设置"/>
+
+        <TextView
+            android:id="@+id/tv_setting_power"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_light_black"
+            android:textColorHint="@color/textGray"
+            android:textSize="@dimen/font_14sp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ico_arrows_right"
+            android:paddingRight="@dimen/horizontal_16"/>
+    </LinearLayout>
+
+
+    <!--每天计划口数-->
+    <LinearLayout
+        android:id="@+id/ll_daily_mouth"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/vertical_60"
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/vertical_10"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <!--android:layout_marginTop="0.5dp"-->
+
+        <TextView
+            android:layout_width="@dimen/horizontal_130"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/horizontal_16"
+            android:textSize="@dimen/font_14sp"
+            android:textColor="@color/textBlack"
+            android:text="每天计划口数"
+             />
+
+        <TextView
+            android:id="@+id/tv_daily_mouth"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_light_black"
+            android:textColorHint="@color/textGray"
+            android:textSize="@dimen/font_14sp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ico_arrows_right"
+            android:paddingRight="@dimen/horizontal_16"/>
+    </LinearLayout>
+
+    <com.customview.view.SelectView
+        android:id="@+id/selectview_current_power"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/horizontal_16"
+        android:background="@color/white"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/vertical_6"
+        app:SelectViewTitle="当前功率"/>
+
+
+    <!--<com.customview.view.DefaultZeroView-->
+        <!--android:id="@+id/bad_num"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:defaultZeroViewTitle="不良产品数"-->
+        <!--/>-->
+    <!--app:defaultZeroViewEditable="true"-->
+
+
+</LinearLayout>

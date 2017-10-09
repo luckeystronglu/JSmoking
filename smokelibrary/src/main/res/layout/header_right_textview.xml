@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/vertical_100"
+    android:orientation="vertical">
+    <!-- android:background="@color/actionsheet_blue"-->
+
+    <LinearLayout
+        android:id="@+id/ll_left"
+        android:layout_width="@dimen/horizontal_100"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/iv_left"
+            android:layout_width="@dimen/vertical_16"
+            android:layout_height="@dimen/vertical_26"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="@dimen/vertical_10"
+            android:layout_marginLeft="@dimen/horizontal_26"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="@dimen/vertical_10"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_14sp"
+            />
+    </LinearLayout>
+    <!--<TextView-->
+        <!--android:id="@+id/tv_title"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textSize="@dimen/font_16sp"/>-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:gravity="center"-->
+
+
+    <LinearLayout
+        android:layout_width="@dimen/horizontal_60"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true">
+        <TextView
+            android:id="@+id/tv_right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_14sp"
+            android:layout_gravity="center_vertical"
+            android:paddingTop="@dimen/vertical_6"
+            android:paddingBottom="@dimen/vertical_6"
+            android:layout_marginTop="@dimen/vertical_10"/>
+    </LinearLayout>
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_right"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textSize="@dimen/font_14sp"-->
+        <!--android:gravity="center"-->
+        <!--android:paddingLeft="@dimen/horizontal_12"-->
+        <!--android:paddingRight="@dimen/horizontal_12"-->
+        <!--android:layout_marginTop="@dimen/vertical_10"/>-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/iv_right"-->
+    <!--android:layout_width="@dimen/horizontal_40"-->
+    <!--android:layout_height="@dimen/vertical_40"-->
+    <!--android:scaleX="0.8"-->
+    <!--android:scaleY="0.8"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_marginRight="@dimen/horizontal_12"-->
+    <!--android:layout_marginTop="@dimen/vertical_30"-->
+    <!--/>-->
+
+
+</RelativeLayout>

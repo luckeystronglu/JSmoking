@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LuckeyLibrary</string>
+    <string name="dlg_btn_confirm">Confirm</string>
+    <string name="dlg_btn_cancel">Cancel</string>
+    <string name="dlg_btn_clear">Clear</string>
+    <string name="dlg_btn_update">Update</string>
+    <string name="dlg_btn_nextUpdate">Update next time</string>
+    <string name="login">Login</string>
+    <string name="user_name">User name</string>
+    <string name="auto_login">Auto login</string>
+    <string name="digits_et_char">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_</string>
+
+    <string name="dlg_msg_refresh">Getting data,wait a moment</string>
+    <string name="network_error">Network error</string><!--网络错误-->
+    <string name="toast_msg_call_webservice_fail">No network, please check the network Settings</string>
+    <string name="toast_msg_error_internet">No network, please check the network Settings</string>
+    <string name="get_data_error">Get data failed</string>
+    <string name="this_is_last_page">It is the last page</string>
+
+    <!-- bluetooth -->
+    <string name="bluetooth_connected">Device connected</string>
+    <string name="bluetooth_disconnected">Device disconnected</string>
+
+
+    <string name="daily_smoking_count">Daily smoking count</string>
+    <string name="digits_et_positive_amount">0123456789</string>
+
+</resources>

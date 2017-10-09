@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="green">#33CC00</color>
+    <color name="white">#ffffff</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="red">#FF0000</color>
+    <color name="blue">#436EEE</color>
+    <color name="gray">#9D9D9D</color>
+    <color name="orange">#FF7F00</color>
+    <color name="app_bg_light_gray">#EFEFF4</color>
+    <color name="lib_divider_line_color">#b2b2b3</color>
+    <color name="linear_gray">#55b2b2b3</color>
+    <color name="login_bg">#56b3f5</color>
+    <color name="white_transparency">#55ffffff</color>
+    <color name="blue_status">#3f51b4</color>
+    <color name="smoke_theme">#55a935</color>
+    <color name="dialog_theme">#35aefe</color>
+
+
+    <color name="circle_bg_num">#f8750a</color>
+    <color name="textBlack">#262424</color>
+    <color name="text_darker_gray">#909090</color>
+    <color name="textGray">#cecfd0</color>
+    <color name="text_light_black">#7e7a7a</color>
+    <color name="dialog_create_wo_bg">#fcfde5</color>
+    <color name="dialog_tint_color">#fd774c</color>
+    <color name="bg_startwo_tablayout">#6eabfe</color>
+    <color name="text_dark_gray">#909090</color>
+
+    <!--动态标签Start-->
+    <color name="base_color_0">#f53e7b</color>
+    <color name="base_color_1">#333333</color>
+    <color name="base_color_2">#666666</color>
+    <color name="base_color_3">#3577ce</color>
+    <color name="base_color_4">#eeeeee</color>
+    <color name="base_color_5">#e5e5e5</color>
+    <color name="base_color_6">#ffffff</color>
+    <color name="button_gray">#dcdcdc</color>
+    <!--动态标签End-->
+
+</resources>

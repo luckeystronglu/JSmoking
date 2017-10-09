@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--头部控件(右边图片)-->
+    <!--<declare-styleable name="header_right_imageview">-->
+    <declare-styleable name="HeaderRightImageView">
+        <attr name="leftIcon" format="reference"/>
+        <attr name="rightIcon" format="reference"/>
+        <attr name="middleTitle" format="reference|string"/>
+        <attr name="leftIconVisible">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+            <enum name="gone" value="2"/>
+        </attr>
+        <attr name="rightIconVisible">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+            <enum name="gone" value="2"/>
+        </attr>
+    </declare-styleable>
+
+
+    <!--头部控件(右边文字)-->
+    <declare-styleable name="HeaderRightTextView">
+        <attr name="h2leftIcon" format="reference"/>
+        <attr name="rightText" format="reference|string"/>
+        <attr name="h2middleTitle" format="reference|string"/>
+        <attr name="h2leftIconVisible">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+            <enum name="gone" value="2"/>
+        </attr>
+        <attr name="rightTextVisible">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+            <enum name="gone" value="2"/>
+        </attr>
+    </declare-styleable>
+
+    <!--自定义的Input输入框-->
+    <declare-styleable name="InputView">
+        <attr name="InputViewTitle" format="reference|string"/>
+        <attr name="InputViewEditable" format="boolean"/>
+        <attr name="InputViewContent" format="reference|string"/>
+        <attr name="InputViewHint" format="reference|string"/>
+        <attr name="InputViewMaxLength" format="reference|integer"/>
+        <attr name="InputViewMarkVisible">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+            <enum name="gone" value="2"/>
+        </attr>
+        <attr name="RightIconVisible">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+            <enum name="gone" value="2"/>
+        </attr>
+
+        <attr name="InputViewInputType">
+            <enum name="textPassword" value="0"/>
+            <enum name="numberDecimal" value="1"/>
+            <enum name="number" value="2"/>
+        </attr>
+    </declare-styleable>
+
+    <!--组合选择框-->
+    <declare-styleable name="SelectView">
+        <attr name="SelectViewIndicatorImg" format="reference"/>
+        <attr name="SelectViewTitle" format="reference|string"/>
+        <attr name="SelectViewHint" format="reference|string"/>
+        <attr name="SelectViewMarkVisible">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+            <enum name="gone" value="2"/>
+        </attr>
+
+        <attr name="SelectViewRightImgVisible">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+            <enum name="gone" value="2"/>
+        </attr>
+    </declare-styleable>
+
+
+    <!--从零开始的加减框-->
+    <declare-styleable name="DefaultZeroView">
+        <attr name="defaultZeroViewTitle" format="reference|string"/>
+        <attr name="defaultZeroViewEditable" format="boolean"/>
+    </declare-styleable>
+
+
+    <!--自定义Dialog-->
+    <!--<declare-styleable name="SelfDialogView">-->
+        <!--<attr name="SelfDialogTitle" format="reference|string"/>-->
+        <!--<attr name="SelfDialogDesc" format="reference|string"/>-->
+        <!--<attr name="SelfDialogDescTextColor" format="reference|color"/>-->
+    <!--</declare-styleable>-->
+
+
+    <!--动态标签Start-->
+    <declare-styleable name="FlowlayoutTags">
+        <attr name="tag_backgroundColor" format="reference|color" />
+        <attr name="tag_checkedBackgroundColor" format="reference|color" />
+        <attr name="tag_pressedBackgroundColor" format="reference|color" />
+        <attr name="tag_inputHintColor" format="color" />
+        <attr name="tag_inputTextColor" format="color" />
+        <attr name="tag_horizontalSpacing" format="dimension" />
+        <attr name="tag_verticalSpacing" format="dimension" />
+        <attr name="tag_horizontalPadding" format="dimension" />
+        <attr name="tag_verticalPadding" format="dimension" />
+        <attr name="tag_textColor" format="color" />
+        <attr name="tag_checkedTextColor" format="reference|color" />
+        <attr name="tag_textSize" format="dimension" />
+
+        <!-- 边框圆角半径-->
+        <attr name="tag_radius" format="dimension" />
+        <attr name="tag_bottomLeftRadius" format="dimension" />
+        <attr name="tag_bottomRightRadius" format="dimension" />
+        <attr name="tag_topLeftRadius" format="dimension" />
+        <attr name="tag_topRightRadius" format="dimension" />
+        <!-- 边框颜色-->
+        <attr name="tag_strokeColor" format="reference|color" />
+        <attr name="tag_checkedStrokeColor" format="reference|color" />
+        <!-- 边框宽度-->
+        <attr name="tag_strokeWidth" format="dimension" />
+        <!-- 是否多选-->
+        <attr name="tag_multiChooseable" format="boolean" />
+        <attr name="tag_singleLine" format="boolean" />
+
+        <!--单位dp,为了适应wrap_content用integer-->
+        <attr name="tag_width" format="integer|enum">
+            <enum name="wrap_content" value="-2"/>
+            <enum name="match_parent" value="-1"/>
+        </attr>
+        <attr name="tag_height" format="integer|enum">
+            <enum name="wrap_content" value="-2"/>
+            <enum name="match_parent" value="-1"/>
+        </attr>
+        <attr name="tag_maxEms" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="Themes">
+        <attr name="flowlayoutTagsStyle" format="reference" />
+    </declare-styleable>
+    <!--动态标签End-->
+
+
+    <!--波浪图-->
+    <declare-styleable name="WaveLoadingView">
+        <attr name="wlv_borderWidth" format="dimension"/>
+        <attr name="wlv_borderColor" format="color"/>
+        <attr name="wlv_progressValue" format="integer"/>
+        <attr name="wlv_shapeType" format="enum">
+            <enum name="triangle" value="0" />
+            <enum name="circle" value="1" />
+            <enum name="square" value="2" />
+            <enum name="rectangle" value="3" />
+        </attr>
+        <attr name="wlv_triangle_direction" format="enum">
+            <enum name="north" value="0" />
+            <enum name="south" value="1" />
+            <enum name="east" value="2" />
+            <enum name="west" value="3" />
+        </attr>
+        <attr name="wlv_round_rectangle" format="boolean"/>
+        <attr name="wlv_round_rectangle_x_and_y" format="integer"/>
+        <attr name="wlv_waveColor" format="color"/>
+        <attr name="wlv_wave_background_Color" format="color"/>
+        <attr name="wlv_waveAmplitude" format="float"/>
+        <attr name="wlv_titleTop" format="string"/>
+        <attr name="wlv_titleCenter" format="string"/>
+        <attr name="wlv_titleBottom" format="string"/>
+        <attr name="wlv_titleTopSize" format="dimension"/>
+        <attr name="wlv_titleCenterSize" format="dimension"/>
+        <attr name="wlv_titleBottomSize" format="dimension"/>
+        <attr name="wlv_titleTopColor" format="color"/>
+        <attr name="wlv_titleCenterColor" format="color"/>
+        <attr name="wlv_titleBottomColor" format="color"/>
+        <attr name="wlv_titleTopStrokeColor" format="color"/>
+        <attr name="wlv_titleTopStrokeWidth" format="dimension"/>
+        <attr name="wlv_titleBottomStrokeColor" format="color"/>
+        <attr name="wlv_titleBottomStrokeWidth" format="dimension"/>
+        <attr name="wlv_titleCenterStrokeColor" format="color"/>
+        <attr name="wlv_titleCenterStrokeWidth" format="dimension"/>
+    </declare-styleable>
+
+
+    <!--圆形进度条-->
+    <declare-styleable name="CircleProgressBar">
+        <attr name="cpbGravity">
+            <flag name="top" value="0x30" />
+            <flag name="bottom" value="0x50" />
+            <flag name="left" value="0x03" />
+            <flag name="right" value="0x05" />
+            <flag name="center_vertical" value="0x10" />
+            <flag name="center_horizontal" value="0x01" />
+            <flag name="center" value="0x11" />
+            <flag name="start" value="0x00800003" />
+            <flag name="end" value="0x00800005" />
+        </attr>
+        <attr name="cpbRadius" format="dimension" />
+        <attr name="cpbStartAngle" format="integer" />
+        <attr name="cpbSweepAngle" format="integer" />
+        <attr name="cpbBackgroundSize" format="dimension" />
+        <attr name="cpbBackgroundColor" format="color" />
+        <attr name="cpbProgressSize" format="dimension" />
+        <attr name="cpbMax" format="integer" />
+        <attr name="cpbProgress" format="integer" />
+        <attr name="cpbFirstGradientColors" format="color" />
+        <attr name="cpbSecondGradientColors" format="color" />
+        <attr name="cpbThirdGradientColors" format="color" />
+        <attr name="cpbFourthGradientColors" format="color" />
+        <attr name="cpbFirstGradientPositions" format="float" />
+        <attr name="cpbSecondGradientPositions" format="float" />
+        <attr name="cpbThirdGradientPositions" format="float" />
+        <attr name="cpbFourthGradientPositions" format="float" />
+        <attr name="cpbDialVisibility" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="4" />
+            <enum name="gone" value="8"/>
+        </attr>
+        <attr name="cpbDialGap" format="dimension" />
+        <attr name="cpbDialAngle" format="integer" />
+        <attr name="cpbDialHeight" format="dimension" />
+        <attr name="cpbDialWidth" format="dimension" />
+        <attr name="cpbDialColor" format="color" />
+        <attr name="cpbDialSpecialUnit" format="integer" />
+        <attr name="cpbDialSpecialHeight" format="dimension" />
+        <attr name="cpbDialSpecialWidth" format="dimension" />
+        <attr name="cpbDialSpecialColor" format="color" />
+        <attr name="cpbDialGravity" format="enum">
+            <enum name="Center" value="17" />
+            <enum name="Top" value="48" />
+            <enum name="Bottom" value="20" />
+        </attr>
+
+        <!--<attr name="cpbDialGravity" format="enum">
+            <enum name="Center" value="17" />
+            <enum name="Top" value="48" />
+            <enum name="Bottom" value="80" />
+        </attr>-->
+        <attr name="cpbShowSpecialDialValue" format="boolean" />
+        <attr name="cpbSpecialDialValueGap" format="dimension" />
+        <attr name="cpbSpecialDialValueTextSize" format="dimension" />
+        <attr name="cpbSpecialDialValueTextColor" format="color" />
+        <attr name="cpbShowProgressValue" format="boolean" />
+        <attr name="cpbProgressValueTextSize" format="dimension" />
+        <attr name="cpbProgressValueTextColor" format="color" />
+        <attr name="cpbTopText" format="string" />
+        <attr name="cpbTopTextGap" format="dimension" />
+        <attr name="cpbTopTextSize" format="dimension" />
+        <attr name="cpbTopTextColor" format="color" />
+        <attr name="cpbBottomText" format="string" />
+        <attr name="cpbBottomTextGap" format="dimension" />
+        <attr name="cpbBottomTextSize" format="dimension" />
+        <attr name="cpbBottomTextColor" format="color" />
+        <attr name="cpbScaleType">
+            <flag name="None" value="0" />
+            <flag name="Inside" value="1" />
+            <flag name="Crop" value="2" />
+        </attr>
+        <attr name="cpbProgressDuration" format="integer"/>
+        <attr name="cpbProgressMode" format="enum">
+            <enum name="Progress" value="0" />
+            <enum name="Loading" value="1" />
+        </attr>
+        <attr name="cpbLoadingStartAngle" format="integer" />
+        <attr name="cpbLoadingSweepAngle" format="integer" />
+        <attr name="cpbLoadingDuration" format="integer" />
+        <attr name="cpbLoadingRepeatMode" format="enum">
+            <enum name="Restart" value="1" />
+            <enum name="Reverse" value="2" />
+        </attr>
+        <attr name="cpbLoadingDrawOther" format="boolean" />
+        <attr name="cpbLoadingText" format="string"/>
+    </declare-styleable>
+
+
+</resources>

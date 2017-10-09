@@ -1,0 +1,130 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- font textSize -->
+    <dimen name="font_3sp">3.0sp</dimen>
+    <dimen name="font_4sp">4.0sp</dimen>
+    <dimen name="font_5sp">5.0sp</dimen>
+    <dimen name="font_6sp">6.0sp</dimen>
+    <dimen name="font_8sp">8.0sp</dimen>
+    <dimen name="font_9sp">9.0sp</dimen>
+    <dimen name="font_10sp">10.0sp</dimen>
+    <dimen name="font_12sp">12.0sp</dimen>
+    <dimen name="font_14sp">14.0sp</dimen>
+    <dimen name="font_16sp">16.0sp</dimen>
+    <dimen name="font_18sp">18.0sp</dimen>
+    <dimen name="font_20sp">20.0sp</dimen>
+    <dimen name="font_22sp">22.0sp</dimen>
+    <dimen name="font_26sp">26.0sp</dimen>
+    <dimen name="font_30sp">30.0sp</dimen>
+    <dimen name="font_36sp">36.0sp</dimen>
+    <dimen name="font_40sp">40.0sp</dimen>
+    <dimen name="font_46sp">46.0sp</dimen>
+    <dimen name="font_50sp">50.0sp</dimen>
+    <dimen name="font_92sp">92.0sp</dimen>
+
+    <!--Horizontal-->
+    <dimen name="horizontal_1">@dimen/x1</dimen>
+    <dimen name="horizontal_2">@dimen/x2</dimen>
+    <dimen name="horizontal_4">@dimen/x4</dimen>
+    <dimen name="horizontal_6">@dimen/x6</dimen>
+    <dimen name="horizontal_8">@dimen/x8</dimen>
+    <dimen name="horizontal_10">@dimen/x10</dimen>
+    <dimen name="horizontal_12">@dimen/x12</dimen>
+    <dimen name="horizontal_14">@dimen/x14</dimen>
+    <dimen name="horizontal_16">@dimen/x16</dimen>
+    <dimen name="horizontal_20">@dimen/x20</dimen>
+    <dimen name="horizontal_26">@dimen/x26</dimen>
+    <dimen name="horizontal_30">@dimen/x30</dimen>
+    <dimen name="horizontal_36">@dimen/x36</dimen>
+    <dimen name="horizontal_40">@dimen/x40</dimen>
+    <dimen name="horizontal_46">@dimen/x46</dimen>
+    <dimen name="horizontal_50">@dimen/x50</dimen>
+    <dimen name="horizontal_60">@dimen/x60</dimen>
+    <dimen name="horizontal_70">@dimen/x70</dimen>
+    <dimen name="horizontal_76">@dimen/x76</dimen>
+    <dimen name="horizontal_80">@dimen/x80</dimen>
+    <dimen name="horizontal_82">@dimen/x82</dimen>
+    <dimen name="horizontal_85">@dimen/x85</dimen>
+    <dimen name="horizontal_90">@dimen/x90</dimen>
+    <dimen name="horizontal_92">@dimen/x92</dimen>
+    <dimen name="horizontal_100">@dimen/x100</dimen>
+    <dimen name="horizontal_105">@dimen/x105</dimen>
+    <dimen name="horizontal_120">@dimen/x120</dimen>
+    <dimen name="horizontal_130">@dimen/x130</dimen>
+    <dimen name="horizontal_135">@dimen/x135</dimen>
+    <dimen name="horizontal_140">@dimen/x140</dimen>
+    <dimen name="horizontal_150">@dimen/x150</dimen>
+    <dimen name="horizontal_160">@dimen/x160</dimen>
+    <dimen name="horizontal_280">@dimen/x280</dimen>
+
+
+    <!--Vertical-->
+    <dimen name="vertical_1">@dimen/y1</dimen>
+    <dimen name="vertical_2">@dimen/y2</dimen>
+    <dimen name="vertical_4">@dimen/y4</dimen>
+    <dimen name="vertical_6">@dimen/y6</dimen>
+    <dimen name="vertical_8">@dimen/y8</dimen>
+    <dimen name="vertical_10">@dimen/y10</dimen>
+    <dimen name="vertical_12">@dimen/y12</dimen>
+    <dimen name="vertical_14">@dimen/y14</dimen>
+    <dimen name="vertical_16">@dimen/y16</dimen>
+    <dimen name="vertical_18">@dimen/y18</dimen>
+    <dimen name="vertical_20">@dimen/y20</dimen>
+    <dimen name="vertical_22">@dimen/y22</dimen>
+    <dimen name="vertical_24">@dimen/y24</dimen>
+    <dimen name="vertical_26">@dimen/y26</dimen>
+    <dimen name="vertical_28">@dimen/y28</dimen>
+    <dimen name="vertical_30">@dimen/y30</dimen>
+    <dimen name="vertical_32">@dimen/y32</dimen>
+    <dimen name="vertical_34">@dimen/y34</dimen>
+    <dimen name="vertical_35">@dimen/y35</dimen>
+    <dimen name="vertical_36">@dimen/y36</dimen>
+    <dimen name="vertical_38">@dimen/y38</dimen>
+    <dimen name="vertical_40">@dimen/y40</dimen>
+    <dimen name="vertical_42">@dimen/y42</dimen>
+    <dimen name="vertical_44">@dimen/y44</dimen>
+    <dimen name="vertical_46">@dimen/y46</dimen>
+    <dimen name="vertical_49">@dimen/y49</dimen>
+    <dimen name="vertical_50">@dimen/y50</dimen>
+    <dimen name="vertical_53">@dimen/y53</dimen>
+    <dimen name="vertical_56">@dimen/y56</dimen>
+    <dimen name="vertical_60">@dimen/y60</dimen>
+    <dimen name="vertical_64">@dimen/y64</dimen>
+    <dimen name="vertical_66">@dimen/y66</dimen>
+    <dimen name="vertical_68">@dimen/y68</dimen>
+    <dimen name="vertical_70">@dimen/y70</dimen>
+    <dimen name="vertical_76">@dimen/y76</dimen>
+    <dimen name="vertical_80">@dimen/y80</dimen>
+    <dimen name="vertical_86">@dimen/y86</dimen>
+    <dimen name="vertical_100">@dimen/y100</dimen>
+    <dimen name="vertical_110">@dimen/y110</dimen>
+    <dimen name="vertical_120">@dimen/y120</dimen>
+    <dimen name="vertical_130">@dimen/y130</dimen>
+    <dimen name="vertical_135">@dimen/y135</dimen>
+    <dimen name="vertical_140">@dimen/y140</dimen>
+    <dimen name="vertical_146">@dimen/y146</dimen>
+    <dimen name="vertical_150">@dimen/y150</dimen>
+    <dimen name="vertical_160">@dimen/y160</dimen>
+    <dimen name="vertical_180">@dimen/y180</dimen>
+    <dimen name="vertical_192">@dimen/y192</dimen>
+    <dimen name="vertical_200">@dimen/y200</dimen>
+    <dimen name="vertical_225">@dimen/y225</dimen>
+    <dimen name="vertical_240">@dimen/y240</dimen>
+    <dimen name="vertical_260">@dimen/y260</dimen>
+    <dimen name="vertical_265">@dimen/y265</dimen>
+
+    <dimen name="vertical_300">@dimen/y300</dimen>
+    <dimen name="vertical_310">@dimen/y310</dimen>
+    <dimen name="vertical_320">@dimen/y320</dimen>
+    <dimen name="vertical_350">@dimen/y350</dimen>
+    <dimen name="vertical_460">@dimen/y460</dimen>
+    <dimen name="vertical_400">@dimen/y400</dimen>
+    <dimen name="vertical_480">@dimen/y480</dimen>
+    <dimen name="vertical_500">@dimen/y500</dimen>
+    <dimen name="vertical_600">@dimen/y600</dimen>
+    <dimen name="vertical_800">@dimen/y800</dimen>
+
+</resources>

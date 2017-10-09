@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vertical diliver分隔线-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <size android:width="@dimen/vertical_50"
+        android:height="0.1dp"/>
+
+    <solid android:color="@color/lib_divider_line_color"/>
+    <padding android:left="@dimen/horizontal_26"
+        android:right="@dimen/horizontal_26"/>
+
+</shape>

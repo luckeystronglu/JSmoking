@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- font textSize -->
+    <dimen name="font_3sp">5.0sp</dimen>
+    <dimen name="font_4sp">7.0sp</dimen>
+    <dimen name="font_5sp">9.0sp</dimen>
+    <dimen name="font_6sp">11.0sp</dimen>
+    <dimen name="font_8sp">12.0sp</dimen>
+    <dimen name="font_9sp">13.0sp</dimen>
+    <dimen name="font_10sp">14.0sp</dimen>
+    <dimen name="font_12sp">16.0sp</dimen>
+    <dimen name="font_14sp">18.0sp</dimen>
+    <dimen name="font_16sp">20.0sp</dimen>
+    <dimen name="font_18sp">22.0sp</dimen>
+    <dimen name="font_20sp">24.0sp</dimen>
+    <dimen name="font_22sp">26.0sp</dimen>
+    <dimen name="font_30sp">35.0sp</dimen>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bottom_tab_divider_line_color">#b2b2b3</color>
+    <color name="bg_light_blue_start">#3bddfe</color>
+    <color name="bg_darker_blue_end">#308dfe</color>
+    <color name="dialog_bgcolor_title_solid">#1075e6</color>
+    <color name="text_dark_gray">#909090</color>
+    <color name="dialog_sure_orange">#fc340d</color>
+    <color name="text_color_primary">#ffff33</color>
+    <color name="color_header_bg">#3577ce</color>
+    <color name="color_power_itemchoiced">#deedd8</color>
+
+    <!--波浪图-->
+    <color name="wave_border_color">#7abf5a</color>
+    <color name="wave_color">#7abf5a</color>
+    <color name="wave_bg_color">#48627c</color>
+    <color name="wave_title_center_color">#ffd03b</color>
+
+    <color name="home_color_start">#308dfe</color>
+    <color name="home_color_end">#3bddfe</color>
+
+    <color name="home_solid_color">#42bd66</color>
+
+</resources>

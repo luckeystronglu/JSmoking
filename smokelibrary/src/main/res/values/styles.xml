@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android = "http://schemas.android.com/apk/res/android">
+    <style name="dlg_refresh_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="my_self_dialog" parent="@android:style/Theme.Holo.Light.Dialog.NoActionBar">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:backgroundDimEnabled">true</item><!--模糊-->
+        <item name="android:windowBackground"> @android:color/transparent </item><!--背景透明-->
+    </style>
+
+
+    <!--动态标签Start-->
+    <!--<item name="tag_textColor">#49C120</item>-->
+    <style name="FlowlayoutTags">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="tag_textColor">#3577ce</item>
+        <item name="tag_backgroundColor">#FFFFFF</item>
+        <item name="tag_inputHintColor">#80000000</item>
+        <item name="tag_inputTextColor">#DE000000</item>
+        <item name="tag_checkedTextColor">#FFFFFF</item>
+        <item name="tag_checkedBackgroundColor">#3577ce</item>
+        <item name="tag_pressedBackgroundColor">#EDEDED</item>
+        <item name="tag_textSize">@dimen/font_12sp</item>
+        <item name="tag_horizontalSpacing">@dimen/horizontal_20</item>
+        <item name="tag_verticalSpacing">@dimen/vertical_16</item>
+        <item name="tag_horizontalPadding">@dimen/horizontal_10</item>
+        <item name="tag_verticalPadding">@dimen/vertical_10</item>
+        <item name="tag_radius">@dimen/vertical_4</item>
+        <item name="tag_strokeColor">@drawable/gray_white_selector</item>
+        <item name="tag_checkedStrokeColor">#3577ce</item>
+        <item name="tag_strokeWidth">1px</item>
+        <item name="tag_multiChooseable">true</item>
+        <item name="tag_singleLine">true</item>
+        <item name="tag_width">wrap_content</item>
+        <item name="tag_height">wrap_content</item>
+        <!--<item name="tag_width">@dimen/horizontal_100</item>-->
+        <!--<item name="tag_height">@dimen/vertical_30</item>-->
+    </style>
+
+    <!--<style name="FlowlayoutTags.Beauty_Red1" parent="FlowlayoutTags">-->
+        <!--<item name="android:layout_width">match_parent</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:layout_marginTop">5dp</item>-->
+        <!--<item name="tag_textColor">@color/base_color_0</item>-->
+        <!--<item name="tag_backgroundColor">@color/base_color_6</item>-->
+        <!--<item name="tag_checkedTextColor">@color/base_color_6</item>-->
+        <!--<item name="tag_checkedBackgroundColor">@color/base_color_0</item>-->
+        <!--<item name="tag_pressedBackgroundColor">#EDEDED</item>-->
+        <!--<item name="tag_radius">5dp</item>-->
+        <!--<item name="tag_strokeColor">@drawable/gray_white_selector</item>-->
+        <!--<item name="tag_checkedStrokeColor">@color/base_color_0</item>-->
+        <!--<item name="tag_strokeWidth">1px</item>-->
+        <!--&lt;!&ndash;这里设置固定大小,padding为0&ndash;&gt;-->
+        <!--<item name="tag_horizontalPadding">0dp</item>-->
+        <!--<item name="tag_verticalPadding">0dp</item>-->
+        <!--&lt;!&ndash;单位dp&ndash;&gt;-->
+        <!--<item name="tag_width">85</item>-->
+        <!--<item name="tag_height">30</item>-->
+        <!--&lt;!&ndash;限制tag显示长度,规则查看Textview&ndash;&gt;-->
+        <!--<item name="tag_maxEms">5</item>-->
+        <!--&lt;!&ndash;单选&ndash;&gt;-->
+        <!--<item name="tag_multiChooseable">false</item>-->
+    <!--</style>-->
+
+    <!--<style name="FlowlayoutTags.Beauty_Red2" parent="FlowlayoutTags">-->
+        <!--<item name="android:layout_width">match_parent</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:layout_marginTop">5dp</item>-->
+        <!--<item name="tag_textColor">@color/base_color_2</item>-->
+        <!--<item name="tag_backgroundColor">@color/base_color_6</item>-->
+        <!--<item name="tag_checkedTextColor">@color/base_color_6</item>-->
+        <!--<item name="tag_checkedBackgroundColor">@color/base_color_0</item>-->
+        <!--<item name="tag_pressedBackgroundColor">#EDEDED</item>-->
+        <!--<item name="tag_radius">5dp</item>-->
+        <!--<item name="tag_strokeColor">@drawable/gray_white_selector</item>-->
+        <!--<item name="tag_checkedStrokeColor">@color/base_color_0</item>-->
+        <!--<item name="tag_strokeWidth">1px</item>-->
+        <!--&lt;!&ndash;这里设置固定大小,padding为0&ndash;&gt;-->
+        <!--<item name="tag_horizontalPadding">5dp</item>-->
+        <!--<item name="tag_verticalPadding">5dp</item>-->
+
+        <!--&lt;!&ndash;这里设置wrap_content时候tag_maxEms不会起作用的&ndash;&gt;-->
+        <!--<item name="tag_maxEms">-1</item>-->
+        <!--<item name="tag_width">wrap_content</item>-->
+        <!--<item name="tag_height">wrap_content</item>-->
+    <!--</style>-->
+    <!--动态标签End-->
+
+
+    <!-- <item name="android:windowFrame">@null</item>边框-->
+    <!--<item name="android:windowIsFloating">true</item>是否浮现在Activity上-->
+    <!--<item name="android:windowIsTranslucent">false</item> 半透明 -->
+    <!--<item name="android:backgroundDimEnabled">false</item>-->
+    <!--<item name="android:windowFrame">@null</item>-边框-->
+    <!-- <item name="android:windowNoTitle">true</item><!-无标题-->
+    <!--<item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:backgroundDimEnabled">false</item>-->
+
+
+    <!-- <item name="android:background">@android:color/transparent</item>-->
+
+</resources>

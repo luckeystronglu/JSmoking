@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">SmartSmoking</string>
+
+    <string name="daily_plan_mouth">每天计划口数</string>
+    <string name="plan_mouth">计划口数</string>
+    <string name="current_power">当前功率(W)</string>
+    <string name="today_smoking_mouth">今日吸烟口数</string>
+    <string name="mouth">口</string>
+    <string name="today_smoking_time">今日吸烟时长</string>
+    <string name="cpb_plan">计划 : </string>
+    <string name="smoke_power_setting">功率设置</string>
+    <string name="setting">设置</string>
+    <string name="smoking">抽烟</string>
+    <string name="kugou">酷狗</string>
+    <string name="cancel">取消</string>
+    <string name="sure">确定</string>
+    <string name="smoke_power_unit">W</string>
+    <string name="toast_power_choice">请先选择功率值</string>
+    <string name="toast_plan_mouth">请先选择计划吸烟口数</string>
+    <string name="press_once_more_login_out">再按一次退出应用</string>
+    <string name="please_install_kugou_first">请安装酷狗音乐App</string>
+    <string name="low_voltage_remind">电压不足,请及时充电!</string>
+    <string name="atomizer_short_circuit">雾化器短路!</string>
+</resources>
